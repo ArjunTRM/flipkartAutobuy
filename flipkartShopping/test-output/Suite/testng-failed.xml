@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.screenShot">
+        <methods>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- Tests.screenShot -->
+      <class name="Tests.Registration">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Tests.Registration -->
+      <class name="Tests.RealmeMobile">
+        <methods>
+          <include name="addtoCart_RealmeC2"/>
+          <include name="Cart_verify"/>
+          <include name="Home_Nav"/>
+        </methods>
+      </class> <!-- Tests.RealmeMobile -->
+      <class name="Tests.addressField">
+        <methods>
+          <include name="orderSummary"/>
+          <include name="Address"/>
+          <include name="Bank_Selecting"/>
+        </methods>
+      </class> <!-- Tests.addressField -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
